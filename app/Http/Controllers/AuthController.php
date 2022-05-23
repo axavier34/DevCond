@@ -131,10 +131,6 @@ class AuthController extends Controller
         $array = ['error' => ''];
 
         auth()->logout();
-
-
-
-        
         
         return $array;
     }
